@@ -1,0 +1,21 @@
+$(document).ready(function() 
+{
+	var raido = $(".wrap").attr("data-toggle");
+
+	if(raido==1)
+	{
+	$(".vnk-tuvan").css("display","none");
+	$(".x").click(function() {
+		$(".wrap").slideToggle();
+		$(".vnk-tuvan").slideToggle();});
+	$(".vnk-tuvan").click(function(){
+		$(".wrap").slideToggle();
+		$(this).slideToggle();});
+	 }else
+		{$(".wrap").css("display","none");
+		$(".x").click(function(){
+			$(".wrap").slideToggle();
+			$(".vnk-tuvan").slideToggle();});
+		$(".vnk-tuvan").click(function()
+			{$(".wrap").slideToggle();
+			$(this).slideToggle();});}}) (function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.10&&appId=126586364523772";fjs.parentNode.insertBefore(js, fjs);}(document, "script", "facebook-jssdk"));
