@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0083)https://phpzag.com/demo/build-invoice-system-with-php-mysql-demo/create_invoice.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link rel="stylesheet" href="./admin control_files/bootstrap.min.css">
+        <script src="./admin control_files/osd.js.tải xuống"></script><script async="" src="./admin control_files/analytics.js.tải xuống"></script><script src="./admin control_files/f.txt"></script><script src="./admin control_files/f(1).txt" id="google_shimpl"></script><script src="./admin control_files/jquery.min.js.tải xuống"></script>
+        <script src="./admin control_files/bootstrap.min.js.tải xuống"></script>
+<!-- jQuery -->
+
+
+<title>admin control</title>
+<script src="./admin control_files/invoice.js.tải xuống"></script>
+<link href="./admin control_files/style.css" rel="stylesheet">
+<link rel="preload" href="./admin control_files/f(2).txt" as="script"><script type="text/javascript" src="./admin control_files/f(2).txt"></script><link rel="preload" href="./admin control_files/f(3).txt" as="script"><script type="text/javascript" src="./admin control_files/f(3).txt"></script></head>
+<body class="">
+
+	
+	<div class="container" style="min-height: 0px !important; height: auto !important;">
+	<br>
+	<script async="" src="./admin control_files/f(4).txt"></script>
+	<!-- Responsive Header -->
+	
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script><div class="container content-invoice">
+	<form action="https://phpzag.com/demo/build-invoice-system-with-php-mysql-demo/create_invoice.php" id="invoice-form" method="post" class="invoice-form" role="form" novalidate=""> 
+		<div class="load-animate animated fadeInUp">
+			<div class="row">
+						    		
+			</div>
+			<input id="currency" type="hidden" value="$">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<h3>Mã khách hàng</h3>	
+                    <input class="table table-bordered table-hover" width="5%" type="text" style="
+    width: 102px;
+">
+    <span data-placeholder="Mật khẩu"></span>
+    
+				</div>      		
+				
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<table class="table table-bordered table-hover" id="invoiceItem">	
+						<tbody><tr>
+							<th width="2%"><input id="checkAll" class="formcontrol" type="checkbox"></th>
+    <th width="15%">Dịch vụ</th>
+							<th width="15%">Item Name</th>
+							<th width="15%">Quantity</th>
+							<th width="15%">Price</th>								
+							<th width="15%">Total</th>
+						</tr>							
+						<tr>
+							<td><input class="itemRow" type="checkbox"></td>
+							<td><input type="text" name="productName[]" id="productName_1" class="form-control" autocomplete="off"></td>			
+							<td><input type="text" name="productName[]" id="productName_1" class="form-control" autocomplete="off"></td>			
+							<td><input type="number" name="quantity[]" id="quantity_1" class="form-control quantity" autocomplete="off"></td>
+							<td><input type="number" name="price[]" id="price_1" class="form-control price" autocomplete="off"></td>
+							<td><input type="number" name="total[]" id="total_1" class="form-control total" autocomplete="off"></td>
+						</tr>						
+					</tbody></table>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+					<button class="btn btn-danger delete" id="removeRows" type="button">Xóa</button>
+					<button class="btn btn-success" id="addRows" type="button">Thêm</button>
+				</div>
+			</div>
+			<div class="row">	
+				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+					<h3>Notes: </h3>
+					<div class="form-group">
+						<textarea class="form-control txt" rows="5" name="notes" id="notes" placeholder="Your Notes"></textarea>
+					</div>
+					<br>
+					<div class="form-group">
+						<input type="hidden" value="123456" class="form-control" name="userId">
+						<input data-loading-text="Saving Invoice..." type="submit" name="invoice_btn" value="Save Invoice" class="btn btn-success submit_btn invoice-save-btm">						
+					</div>
+					
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<span class="form-inline">
+						<div class="form-group">
+							<label>Subtotal: &nbsp;</label>
+							<div class="input-group">
+								<div class="input-group-addon currency">$</div>
+								<input value="" type="number" class="form-control" name="subTotal" id="subTotal" placeholder="Subtotal">
+							</div>
+						</div>
+						
+													
+						
+						
+						
+					</span>
+				</div>
+			</div>
+			<div class="clearfix"></div>		      	
+		</div>
+	</form>			
+</div>
+</div>	
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49752503-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"><ins id="aswift_2_expand" style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><ins id="aswift_2_anchor" style="display:block;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><iframe frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;border:0px;width:0px;height:0px;" src="./admin control_files/saved_resource.html"></iframe></ins></ins></ins><iframe id="google_osd_static_frame_1450893121183" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./admin control_files/saved_resource(1).html"></iframe></body><iframe id="google_esf" name="google_esf" src="./admin control_files/zrt_lookup.html" data-ad-client="ca-pub-1169273815439326" style="display: none;"></iframe></html>
